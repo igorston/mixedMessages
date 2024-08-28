@@ -37,8 +37,86 @@ const messEnd = [
   "and enjoy the fulfillment that comes with perseverance.",
 ];
 
+const asciiArtArray = [
+  `
+     .-""""""-.
+    /          \\
+   /            \\
+   |            |
+   |,  .-.  .-.  ,|
+   | )(_o/  \\o_)( |
+   |/     /\\     \\|
+   (_     ^^     _)
+    \\__|IIIIII|__/
+     | \\IIIIII/ |
+     \\          /
+      \`--------\`
+  `,
+  `
+       /\\_/\\  
+      ( o.o ) 
+       > ^ <
+  `,
+  `
+    _______
+   /       \\
+  |         |
+  |   0 0   |
+  |    ^    |
+   \\_______/
+  `,
+  `
+     _____  
+    /     \\ 
+   | () () |
+    \\  ^  /
+     |||||
+     |||||
+  `,
+  `
+    /\\_/\\  
+   ( o.o ) 
+    > ^ <
+  `,
+  `
+    _______
+   /       \\
+  |  o   o  |
+  |    u    |
+   \\_______/
+  `,
+  `
+    .-=-.  
+   /  !  \\ 
+  | (o o) |
+   \\  ^  / 
+    \`~~~\`
+  `,
+  `
+    .----.
+   ( o  o )
+    |    |
+    \\ -- /
+     '~~'
+  `,
+  `
+   .-"-.
+  (     )
+  |     |
+  |     |
+  '-...-'
+  `,
+  `
+     /\\_/\\  
+    ( o.o ) 
+     > ^ <
+  `,
+];
+
 const randomIntro = messIntro[Math.floor(Math.random() * 10)];
 const randomMiddle = messMiddle[Math.floor(Math.random() * 10)];
 const randomEnding = messEnd[Math.floor(Math.random() * 10)];
+const randomArt = asciiArtArray[Math.floor(Math.random() * 10)];
 
 console.log(`${randomIntro} ${randomMiddle} ${randomEnding}`);
+console.log(`${randomArt}`);

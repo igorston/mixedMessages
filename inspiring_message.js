@@ -36,3 +36,9 @@ const messEnd = [
   "and grow into the person you were always meant to be.",
   "and enjoy the fulfillment that comes with perseverance.",
 ];
+
+const randomIntro = messIntro[Math.floor(Math.random() * 10)];
+const randomMiddle = messMiddle[Math.floor(Math.random() * 10)];
+const randomEnding = messEnd[Math.floor(Math.random() * 10)];
+
+console.log(`${randomIntro} ${randomMiddle} ${randomEnding}`);
